@@ -244,10 +244,10 @@ body {
 }
 
 .left-band {
-  width: 57vw;
+  width: 60vw;
   display: inline-block;
   padding-top: 1em;
-  padding-left: 2em;
+  padding-left: 1.5em;
 }
 
 .left-band h3 {
@@ -278,10 +278,10 @@ body {
 
 
 .bottom-band {
-  height: 25vh;
+  height: 34vh;
   overflow: hidden;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   padding-bottom: 1em;
 }
 
