@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <div class="background">
+
+      <div class="header">
+        <img src="./assets/agent-logo.png"/>
+        <h3>THEAGENCY</h3>
+      </div>
+
+      <div id="propcard" class="propcard" draggable="false">
+        <div class="propcard-container">
+
+          <i class="material-icons">keyboard_arrow_up</i>
+          <p id="info-line-one">PENTHOUSE</p>
+          <p id="info-line-two">51A</p>
+          <p id="info-line-three">DOWNTOWN LA</p>
+          <img id="prop-logo" src="./assets/RitzCarlton.png"/>
+
+          <div class="prop-info">
+            <div>
+              <p class="prop-info-top">4</p>
+              <p class="prop-info-bottom">BEDS</p>
+            </div>
+            <div>
+              <p class="prop-info-top">7.5</p>
+              <p class="prop-info-bottom">BATHS</p>
+            </div>
+            <div>
+              <p class="prop-info-top">7644</p>
+              <p class="prop-info-bottom">SQFT</p>
+            </div>
+          </div>
+
+          <div class="propcard-bottom">
+            <p id="prop-price">$16,998,000</p>
+            <img src="./assets/play-button.png" draggable="false"/>
+          </div>
+
+        </div>
+        <img class="propcard-background-img" src="./assets/51a-front-img.png" draggable="false"/>
+      </div>
+
+      <div class="footer">
+        <img src="./assets/agent-logo.png"/>
+        <div>
+          <p>Mauricio Umansky</p>
+          <p>Ansel Kim</p>
+        </div>
+        <i class="material-icons">question_answer</i>
+        <i class="material-icons">phone</i>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+      $("#propcard").click(function(){
+        window.location.href = "propinfo.html"
+      })
+    </script>
+  </body>
+</html>
