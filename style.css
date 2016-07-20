@@ -41,7 +41,7 @@ body {
 
 .propcard {
   height: 60vh;
-  width: 80%;
+  width: 80vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,16 +54,17 @@ body {
 .propcard:after {
   content: '\A';
   position: absolute;
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
   top:0;
+  left:0;
   background: rgba(0,0,0,0.5);
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,0.5))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%); /* IE10+ */
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%); /* W3C */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,0.6))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 100%); /* W3C */
 }
 
 .propcard-background-img {
@@ -71,7 +72,6 @@ body {
   top: 50%;
   transform: translateY(-90%);
   width: 100%;
-  opacity: 0.4;
 }
 
 .propcard-container {
@@ -90,19 +90,20 @@ body {
   margin: 0;
 }
 
-#info-line-one {
-  font-size: 4vw;
-  letter-spacing: 8px;
+.prop-logo-container {
+  height:22vh;
+  width: 100%;
 }
 
-#info-line-two {
-  font-size: 13vh;
-  letter-spacing: 10px;
+.prop-logo-container img {
+  width: 80%;
+  vertical-align: middle;
 }
 
-#info-line-three {
-  font-size: 3vw;
-  letter-spacing: 8px;
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 #prop-logo {
@@ -256,7 +257,7 @@ body {
 }
 
 .left-band {
-  width: 80vw;
+  width: 90vw;
   display: inline-block;
   padding-top: 1em;
   padding-left: 1.5em;
