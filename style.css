@@ -4,8 +4,6 @@
 
 body {
   margin: 0;
-  height: 100%;
-  overflow: hidden
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select:none;
@@ -17,6 +15,7 @@ body {
 
 .background {
   height: 100vh;
+  position: relative;
   background: #9a9a9a;
   background: -webkit-linear-gradient(#c2c2c2, #6d6d6d);
   background: -o-linear-gradient(#c2c2c2, #6d6d6d);
@@ -155,7 +154,8 @@ body {
 }
 
 .footer {
-  position: fixed;
+  position: absolute;
+  clear: both;
   width: 100%;
   bottom: 0;
   height: 8vh;
