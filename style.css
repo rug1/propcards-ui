@@ -97,6 +97,7 @@ body {
 
 .prop-logo-container img {
   width: 80%;
+  height: inherit;
   vertical-align: middle;
 }
 
