@@ -25,7 +25,7 @@ body {
 
 .header {
   text-align: center;
-  padding-top: 1.5em;
+  padding-top: 1em;
   height: 13vh;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .propcard {
-  height: 65vh;
+  height: 64vh;
   width: 80%;
   position: absolute;
   top: 50%;
@@ -72,7 +72,7 @@ body {
   color: #fff;
   position: relative;
   z-index: 1;
-  padding-top: 1em;
+  padding-top: 0.5em;
   text-align: center;
 }
 
@@ -159,17 +159,18 @@ body {
   width: 100%;
   bottom: 0;
   height: 8vh;
+  padding-bottom: 0.5em;
 }
 
 .footer img {
-  padding-left: 1em;
+  padding-left: 2em;
+  padding-right: 0.5em;
 }
 
 .footer div {
   color: #fff;
   display: inline-block;
   font-size: 11px;
-  padding-left: 1em;
   letter-spacing: 1px;
 }
 
@@ -240,7 +241,12 @@ body {
 
 .grey-footer {
   background-color: #4c4c4c;
+}
+
+.grey-footer > div {
   padding-top: 10px;
+  width: 100%;
+  padding-right: 1em;
 }
 
 .left-band {
