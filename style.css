@@ -25,6 +25,7 @@ body {
 .header {
   padding-top: 3em;
   text-align: center;
+  height: 20vh;
 }
 
 .header h3 {
@@ -155,7 +156,7 @@ body {
   position: fixed;
   width: 100%;
   bottom: 0;
-  height: 45px;
+  height: 15vh;
 }
 
 .footer img {
