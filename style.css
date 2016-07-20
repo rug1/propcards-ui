@@ -2,6 +2,10 @@
   font-family: "Proxima Nova", sans-serif;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   -moz-user-select: none;
