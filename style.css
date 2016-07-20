@@ -9,6 +9,7 @@ body {
   -ms-user-select:none;
   user-select:none;
   -o-user-select:none;
+  overflow: hidden;
 }
 
 /* PROPCARD.HTML */
@@ -244,7 +245,7 @@ body {
 }
 
 .grey-footer > div {
-  padding-top: 10px;
+  padding-top: 2vh;
   width: 100%;
   padding-right: 1em;
 }
