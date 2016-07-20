@@ -278,7 +278,7 @@ body {
 
 
 .bottom-band {
-  height: 38vh;
+  height: 25vh;
   overflow: hidden;
   padding-left: 2em;
   padding-right: 2em;
@@ -321,7 +321,7 @@ body {
   right: 0;
   bottom: 0;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
-  height: 40vh;
+  height: 32vh;
 }
 .proptext div {
   line-height: 25px;
