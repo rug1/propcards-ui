@@ -309,20 +309,32 @@ body {
   color: #959595;
 }
 
-.prop-text {
-  padding-top: 1em;
+.proptext {
+position: relative;
+overflow: hidden;
+}
+.proptext:before, .proptext:after {
+content: '';
+position: absolute;
+left: 0;
+right: 0;
+height: 30px; /* Height of the effect */
+}
+.proptext:after {
+bottom: 0;
+/* Use your background color, assuming white: */
+background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+.proptext:before {
+top: 0;
+/* Use your background color, assuming white: */
+background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+.proptext div {
   line-height: 25px;
   color: #b4b4b4;
-}
-
-.prop-text:after {
-  content: '';
-  width: 100%;
-  height: 30%;
-  position: absolute;
-  margin-top: 56vh;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(transparent 100px, white);
+height: 20em;
+overflow: auto;
+border: 0 solid transparent;
+border-width: 10px 0; /* 10px to be able to read first and last lines */
 }
