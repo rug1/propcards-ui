@@ -24,11 +24,8 @@ body {
 
 .header {
   text-align: center;
-  height: 20vh;
-}
-
-.header div {
-  padding-top: 3em;
+  padding-top: 1.5em;
+  height: 13vh;
 }
 
 .header h3 {
