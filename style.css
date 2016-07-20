@@ -278,7 +278,7 @@ body {
 
 
 .bottom-band {
-  height: 28vh;
+  height: 38vh;
   overflow: hidden;
   padding-left: 2em;
   padding-right: 2em;
@@ -310,31 +310,21 @@ body {
 }
 
 .proptext {
-position: relative;
-overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  padding-top: 1em;
 }
-.proptext:before, .proptext:after {
-content: '';
-position: absolute;
-left: 0;
-right: 0;
-height: 30px; /* Height of the effect */
-}
-.proptext:after {
-bottom: 0;
-/* Use your background color, assuming white: */
-background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0));
-}
-.proptext:before {
-top: 0;
-/* Use your background color, assuming white: */
-background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+.bottom-band:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+  height: 40vh;
 }
 .proptext div {
   line-height: 25px;
   color: #b4b4b4;
-height: 20em;
-overflow: auto;
-border: 0 solid transparent;
-border-width: 10px 0; /* 10px to be able to read first and last lines */
+  overflow: hidden;
 }
