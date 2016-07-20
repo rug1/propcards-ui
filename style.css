@@ -256,13 +256,13 @@ body {
 }
 
 .left-band {
-  width: 60vw;
+  width: 80vw;
   display: inline-block;
   padding-top: 1em;
   padding-left: 1.5em;
 }
 
-.left-band h3 {
+.left-band h4 {
   color: #595959;
   margin: 0;
 }
