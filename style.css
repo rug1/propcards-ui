@@ -2,6 +2,10 @@
   font-family: "Proxima Nova", sans-serif;
 }
 
+html {
+  height:100%;
+}
+
 body {
   margin: 0;
   -moz-user-select: none;
@@ -9,12 +13,13 @@ body {
   -ms-user-select:none;
   user-select:none;
   -o-user-select:none;
+  height:100%;
 }
 
 /* PROPCARD.HTML */
 
 .background {
-  height: 90vh;
+  height: 100%;
   position: relative;
   background: #9a9a9a;
   background: -webkit-linear-gradient(#c2c2c2, #6d6d6d);
@@ -25,7 +30,7 @@ body {
 
 .header {
   text-align: center;
-  padding-top: 1.5em;
+  padding-top: 2.5em;
   height: 13vh;
 }
 
