@@ -1,5 +1,5 @@
 * {
-  font-family: "Proxima Nova"
+  font-family: "Proxima Nova", sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  padding-top: 3em;
+  padding-top: 1.5em;
   text-align: center;
   height: 20vh;
 }
