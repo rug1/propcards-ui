@@ -279,9 +279,9 @@ body {
   left:0;
   margin-top: 34.5vh;
   background: #ffffff;
-  background: -moz-linear-gradient(left,  transparent 0%, #fff 40%, #fff 50%, #ededed 100%);
-  background: -webkit-linear-gradient(left,  transparent 0%,#fff 40%, #fff 50%,#ededed 100%);
-  background: linear-gradient(to right,  transparent 0%,#fff 40%, #fff 50%, transparent 100%);
+  background: -moz-linear-gradient(left,  #fff 0%, #fff 40%, #fff 50%, #ededed 100%);
+  background: -webkit-linear-gradient(left,  #fff 0%,#fff 40%, #fff 50%,#ededed 100%);
+  background: linear-gradient(to right,  #fff 0%,#fff 40%, #fff 50%, transparent 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 );
 }
 
