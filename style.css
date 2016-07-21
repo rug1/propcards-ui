@@ -278,11 +278,11 @@ body {
   top:0;
   left:0;
   margin-top: 34.5vh;
-  background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(left,  transparent 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left,  transparent 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  transparent 0%,#f6f6f6 40%, #f6f6f6 50%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 */
+  background: #ffffff;
+  background: -moz-linear-gradient(left,  transparent 0%, #fff 40%, #fff 50%, #ededed 100%);
+  background: -webkit-linear-gradient(left,  transparent 0%,#fff 40%, #fff 50%,#ededed 100%);
+  background: linear-gradient(to right,  transparent 0%,#fff 40%, #fff 50%, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 );
 }
 
 .left-band div {
