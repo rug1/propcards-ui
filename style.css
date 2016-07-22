@@ -167,6 +167,8 @@ body {
   width: 24%;
   padding: 0;
   float: right;
+  margin-right: 3vw;
+  margin-top: 1vh;
 }
 
 .footer {
@@ -218,10 +220,9 @@ body {
   height: 100%;
   top:0;
   left:0;
-  background: #7d7e7d; /* Old browsers */
-  background: -moz-linear-gradient(top,  #282828 0%, transparent 50%, #282828 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #282828 0%, transparent 50%, #282828 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #282828 0%, transparent 50%, #282828 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, transparent 50%, rgba(0,0,0,0.6) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%, transparent 50%, rgba(0,0,0,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%, transparent 50%, rgba(0,0,0,0.6) 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .photo-header div {
@@ -243,7 +244,7 @@ body {
 }
 
 .header-background-img {
-  transform: translateY(-87%);
+  transform: translateY(-97%);
   position: relative;
   width: 105%;
 }
