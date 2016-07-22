@@ -79,6 +79,7 @@ body {
   z-index: 1;
   padding-top: 0.5em;
   text-align: center;
+  height: inherit;
 }
 
 .propcard-container i {
@@ -136,6 +137,12 @@ body {
 
 .propcard-bottom {
   text-align: left;
+}
+
+.propcard-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #prop-price {
