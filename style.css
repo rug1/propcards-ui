@@ -277,10 +277,10 @@ body {
   width: 100vw;
   height: 100px;
   display: inline-block;
-  padding-bottom: 0.5em;
+  padding-bottom: 1.6em;
 }
 
-.left-band:after {
+/*.left-band:after {
   content: '\A';
   position: absolute;
   width: 100%;
@@ -289,11 +289,11 @@ body {
   left:0;
   margin-top: 35vh;
   background: #ffffff;
-  background: -moz-linear-gradient(left,  #fff 0%, #fff 40%, #fff 60%, #ededed 100%);
-  background: -webkit-linear-gradient(left,  #fff 0%,#fff 40%, #fff 60%,#ededed 100%);
-  background: linear-gradient(to right,  #fff 0%,#fff 40%, #fff 60%, transparent 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 );
-}
+  background: -moz-linear-gradient(left,  #fff 0%, #fff 40%, #fff 60%, transparent 100%);
+  background: -webkit-linear-gradient(left,  #fff 0%,#fff 40%, #fff 60%,transparent 100%);
+  background: linear-gradient(to right,  #fff 0%, #fff 40%, #fff 60%, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed',GradientType=1);
+}*/
 
 .left-band div {
   position: absolute;
@@ -303,7 +303,6 @@ body {
 
 .left-band img {
   float: right;
-  opacity: 0.4;
   height: 100px;
 }
 
@@ -311,6 +310,7 @@ body {
   padding-top: 1em;
   color: #595959;
   margin: 0;
+  font-weight: 400;
 }
 
 .left-band p {
@@ -332,6 +332,7 @@ body {
   background: -o-linear-gradient(right, #e30004, #776767);
   background: -moz-linear-gradient(right, #e30004, #776767);
   background: linear-gradient(to right, #e30004 , #776767);
+  font-weight: 400;
 }
 
 
@@ -380,7 +381,7 @@ body {
 
 .proptext {
   position: relative;
-  padding-top: 1em;
+  padding-top: 1.5em;
 }
 
 .proptext > div {
