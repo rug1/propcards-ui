@@ -114,6 +114,7 @@ body {
 
 .prop-info {
   width: 65vw;
+  margin-bottom: 0.5em;
 }
 
 .prop-info div {
@@ -137,6 +138,7 @@ body {
 
 .propcard-bottom {
   text-align: left;
+  margin-bottom: 1.5em;
 }
 
 .propcard-footer {
@@ -149,7 +151,7 @@ body {
   letter-spacing: 1px;
   font-size: 14px;
   margin-left: 9vw;
-  margin-top: 3vh;
+  margin-top: 2vh;
   display: inline-block;
   border: 2px solid #e30505;
   -moz-border-image: -moz-linear-gradient(right, #aea7a7 0%, #e30505 100%);
@@ -162,7 +164,7 @@ body {
 }
 
 .propcard-bottom img {
-  width: 30%;
+  width: 24%;
   padding: 0;
   float: right;
 }
