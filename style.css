@@ -295,7 +295,8 @@ body {
 
 .left-band img {
   float: right;
-  opacity: 0.5;
+  opacity: 0.4;
+  height: 130px;
 }
 
 .left-band h3 {
