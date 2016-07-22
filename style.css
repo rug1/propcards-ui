@@ -90,13 +90,12 @@ body {
 }
 
 .prop-logo-container {
-  height:23vh;
+  height:30vh;
   width: 100%;
 }
 
 .prop-logo-container img {
   width: 80%;
-  height: inherit;
   vertical-align: middle;
 }
 
